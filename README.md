@@ -1,12 +1,44 @@
-# React + Vite
+# 🚀 AI Caption Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR-DEPLOY-ID/deploy-status)](https://app.netlify.com/sites/gencaption/deploys) 
+![GitHub last commit](https://img.shields.io/github/last-commit/Trisha4041/caption-generator)
 
-Currently, two official plugins are available:
+Generate creative social media captions powered by Google's Gemini AI. Perfect for Instagram, Twitter, LinkedIn, and more!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [gencaption.netlify.app](https://gencaption.netlify.app)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+- Platform-specific captions (Instagram, Twitter, etc.)
+- Custom tone selection (Professional, Witty, etc.)
+- Context-aware generation
+- One-click copy to clipboard
+- Responsive design
+
+## 🛠 Tech Stack
+- **Frontend**: React + Vite
+- **Styling**: Tailwind CSS
+- **AI API**: Google Gemini
+- **Hosting**: Netlify (CI/CD)
+- **Version Control**: GitHub
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js (v16+)
+- Gemini API key ([Get one here](https://ai.google.dev/))
+
+### Local Setup
+```bash
+# 1. Clone the repo
+git clone https://github.com/Trisha4041/caption-generator.git
+cd caption-generator
+
+# 2. Install dependencies
+npm install
+
+# 3. Add your API key
+echo "VITE_GEMINI_API_KEY=your_api_key_here" > .env
+
+# 4. Run locally
+npm run dev
